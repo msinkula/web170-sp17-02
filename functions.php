@@ -9,4 +9,8 @@ Description: This is the demo theme for my Web170 section 01 classs in the Sprin
 Version: 42.0
 */
 
+// Register Menu Locations
+register_nav_menus(array('main-menu' => __('Main Menu'), 'footer-menu' => __('Footer Menu'),));
+//
+
 ?>

@@ -123,9 +123,13 @@ img {
 			color: #EBB700; /* and use bright gold */
 		}
 		
-		#navigation ul li.current a {
+		#navigation ul li.current-menu-item a {
 			color: #EBB700; /* and use bright gold */
 		}
+		
+		#navigation ul li ul.sub-menu {
+			display: none;
+			}
 	
 #middle {
 	max-width: 940px; /* change to a max-width */
