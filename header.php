@@ -15,7 +15,7 @@
 
 <!-- Begin Scripts -->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
-<script src="scripts/jquery.flexslider.js"></script>
+<script src="<?php bloginfo('template_directory'); ?>/scripts/jquery.flexslider.js"></script>
 <!-- End Scripts -->
 
 <!-- Begin Flex Slider -->
