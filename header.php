@@ -36,7 +36,7 @@
 </script>
 <!-- End Toggle Menu -->
 
-<!-- Begin WP Head Function -->
+<!-- Start WP Head Function -->
 <?php wp_head(); ?>
 <!-- End WP Head Function -->
 
@@ -45,14 +45,25 @@
 
 <!-- Begin Header -->
 <div id="header">
-<h1 id="logo"><a href="<?php echo get_settings('home'); ?>">Mike Sinkula</a></h1>
+<h1 id="logo"><a href="<?php echo get_option('home'); ?>">Mike Sinkula</a></h1>
 <img id="toggle" src="<?php bloginfo('template_directory'); ?>/images/img-toggle.png" width="25" height="25" alt="Toggle Menu">
 </div>
 <!-- End Header -->
 
+<!-- Begin Static Navigation 
+<div id="navigation">
+    <ul id="navigation-items">
+    <li><a href="main.html">About</a></li>
+    <li><a href="main.html">Portfolio</a></li>
+    <li><a href="main.html">Blog</a></li>
+    <li><a href="main.html">Contact</a></li>
+    </ul>
+</div>
+ End Static Navigation -->
+ 
 <!-- Begin WordPress Menu -->
 <?php wp_nav_menu(array('theme_location' => 'main-menu', 'container' => 'div', 'container_id' => 'navigation',)); ?>
 <!-- End WordPress Menu -->
 
-<!-- Begin Content -->
+<!-- Begin Middle -->
 <div id="middle">

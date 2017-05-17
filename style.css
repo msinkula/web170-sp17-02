@@ -2,13 +2,13 @@
 /* CSS Document */
 
 /*
-Theme Name: Web170 Sping 2017 Section 01 Demo Theme
-Theme URI: https://github.com/msinkula/web170-sp17-02
+Theme Name: WordPress Spring 2017 Section 01 Demo
 Author: Mike Sinkula
 Author URI: http://mikesinkula.com/
-Description: This is the demo theme for my Web170 section 01 classs in the Spring 2017 Quarter. 
+Description: This is the demo theme for the WEB170 section 01 class for the Spring 2017 Quarter.
 Version: 42.0
 */
+
 
 /* 
 Purple: http://slayeroffice.com/tools/color_palette/?hex=39275B
@@ -129,7 +129,8 @@ img {
 		
 		#navigation ul li ul.sub-menu {
 			display: none;
-			}
+		}
+		
 	
 #middle {
 	max-width: 940px; /* change to a max-width */
@@ -169,6 +170,32 @@ img {
 		width: 620px;
 		float: left;
 	}
+	
+	#content img.size-thumbnail,
+	#content img.size-icon {
+		float: left;
+		margin-right: 20px;	
+	}
+	
+	#content img.size-large {
+		max-width: 620px;
+		height: auto;
+		}
+	
+	.aligncenter {
+		display: block;
+		margin: 0 auto;
+		}
+	
+	.alignleft {
+		float: left;
+		margin-right: 20px;
+		}
+	
+	.alignright {
+		float: right;
+		margin-left: 20px;
+		}
 	
 		#content label {
 			display: block;
@@ -315,6 +342,10 @@ img {
 	#navigation ul li a {
 		display: block; /* makes the anchor tag extend out */
 	}
+	
+	#navigation ul li ul.sub-menu {
+			display: block;
+		}
 	
 	#middle {
 		padding: 20px 10px;

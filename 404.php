@@ -2,11 +2,10 @@
 
     <!-- Begin Text -->
     <div id="content">
-	<h2>404 Error</h2>
-	<p>Dude... I don't know what to tell you.</p>
+    <p>Go home. You're drunk.</p>
     <small>404.php</small>
     </div>
     <!-- End Text -->
-    
-<?php get_sidebar(); ?>    
-<?php get_footer(); ?>
+ 
+ <?php get_sidebar(); ?> 
+ <?php get_footer(); ?>

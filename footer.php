@@ -1,6 +1,6 @@
-
+   
 </div>
-<!-- End Content -->
+<!-- End Middle -->
 
 <!-- Begin Footer -->
 <div id="footer">
